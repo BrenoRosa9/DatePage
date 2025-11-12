@@ -159,7 +159,7 @@ export default function Invite() {
             ref={textRef}
             className="text-3xl sm:text-4xl font-bold text-rose-600 mb-8"
           >
-            {accepted ? "Nonno nico então 😉" : "Gabriele, quer sair comigo?"}
+            {accepted ? "Vamos conhecer o Nonno nico então 😉" : "Gabriele, quer sair comigo?"}
           </h1>
         ) : (
           <h1
@@ -171,7 +171,7 @@ export default function Invite() {
               top: `${textPos.y}px`,
             }}
           >
-            {accepted ? "Sabia que você não resistiria 😉" : "Gabriele, quer sair comigo?"}
+            {accepted ? "Vamos conhecer o Nonno nico então 😉" : "Gabriele, quer sair comigo?"}
           </h1>
         )}
 
